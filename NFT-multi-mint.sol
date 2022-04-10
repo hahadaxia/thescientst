@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.1;
-
+//科学家NFT批量抢购
 
 // 接口合约
 interface IERC721 {
