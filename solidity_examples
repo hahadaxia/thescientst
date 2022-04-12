@@ -1,5 +1,6 @@
 ## 基础
-1. call 与delegatecall
-二者执行代码的上下文环境的不同，当使用call调用其它合约的函数时，代码是在被调用的合约的环境里执行，
-对应的，使用delegatecall进行函数调用时代码则是在调用函数的合约的环境里执行,通过代码测试说明
+1. call 与 delegatecall
+二者执行代码的上下文环境不同
+当使用call调用其它合约的函数时，代码是在被调用的合约的环境里执行，
+当使用delegatecall进行函数调用时代码则是在调用函数的合约的环境里执行,通过代码测试说明
 [测试代码1](https://solidity-by-example.org/delegatecall)
