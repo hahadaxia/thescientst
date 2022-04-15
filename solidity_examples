@@ -30,7 +30,7 @@
 
 注意:可以从remix中active debugger模块来查看
 
-3. Sending Ether (transfer, send, call)
+3. [Sending Ether (transfer, send, call)](https://solidity-by-example.org/sending-ether)
 3.1 transfer (2300 gas, throws error) 
 3.2 send (2300 gas, returns bool)
-3.3 call (forward all gas or set gas, returns bool)
+3.3 call (forward all gas or set gas, returns bool)(call in combination with re-entrancy guard is the recommended)
