@@ -34,3 +34,8 @@
 3.1 transfer (2300 gas, throws error) 
 3.2 send (2300 gas, returns bool)
 3.3 call (forward all gas or set gas, returns bool)(call in combination with re-entrancy guard is the recommended)
+
+## hack
+0. ~~Re-Entrancy~~
+1. ~~Phishing with tx.origin~~
+
