@@ -29,3 +29,8 @@
   - 函数也可以返回使用calldata声明的数组和结果，但是不可能分配这些类型
 
 注意:可以从remix中active debugger模块来查看
+
+3. Sending Ether (transfer, send, call)
+3.1 transfer (2300 gas, throws error) 
+3.2 send (2300 gas, returns bool)
+3.3 call (forward all gas or set gas, returns bool)
